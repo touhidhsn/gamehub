@@ -4,7 +4,7 @@ import APIClient from '../services/api-client';
 const apiClient = new APIClient<Genre>('/genres');
 
 export interface Genre {
-  id: string;
+  id: number;
   name: string;
   image_background: string;
 }
