@@ -1,6 +1,7 @@
 import { useQuery } from 'react-query';
 import APIClient from '../services/api-client';
-import { Genre } from './Genre';
+import { Genre } from '../entities/Genre';
+
 
 const apiClient = new APIClient<Genre>('/genres');
 
